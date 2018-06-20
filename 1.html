@@ -1,0 +1,113 @@
+<html >
+<head>
+
+<script typ="text/javascript" src="a.js" ></script>
+     
+</head>
+
+<body>
+<div class="container">
+<div class="content">
+
+ <center>
+    <form name="form1"  method="post" onsubmit ="return store()" >
+     <fieldset>
+
+    <h2>Sign In</h2>
+    <table border='0'> 
+
+    	 <tr>
+          <td><LABEL for="name">Name:<sup style="color:red;">*</sup> </LABEL></td>
+          <td><INPUT type="text" id="name"></td><td width="200px"><i style="color:red;" ></i></td>
+        </tr>
+
+        	
+        <tr>
+          <td><LABEL for="email">Email:<sup style="color:red;">*</sup> </LABEL></td>
+          <td><INPUT type="text" id="email"></td><td width="200px"><i style="color:red;"></i></td>
+        </tr>
+
+
+        <tr>
+          <td><LABEL for="password">Password:<sup style="color:red;">*</sup> </LABEL></td>
+          <td><INPUT type="password" id="password"></td><td width="200px"><i style="color:red;" ></i></td>
+        </tr>
+
+       <tr>
+          <td><LABEL for="gender">Gender:<sup style="color:red;">*</sup> </LABEL>
+          <id="gend"><i style="color:red;" ></i></td>
+           <td><input type="radio" name="gender" value="male" id="male" > Male<br>
+  		   <input type="radio" name="gender" value="female" id="female"> Female<br></td>
+       </tr>
+
+
+
+        <tr>
+          <td><LABEL for="age">Age:<sup style="color:red;">*</sup> </LABEL></td>
+          <td><INPUT type="range" id="ag" min=1 max=100 step=1></td><td><i style="color:red;" ></i></td>
+        </tr>
+
+
+        
+         <tr>
+          <td></td><td><br/><INPUT type="submit"  value="Submit" ></td>
+         </tr>
+        
+
+         <tr>
+      <td><a href="signup.html">sign up</a></td>
+    </tr>
+
+    <tr>
+      <td><a href="contact.html">contact</a></td>
+    </tr>
+   
+
+
+
+    </table>
+ 
+     </FORM></center>
+
+  </div>
+    </div>
+
+<div class="row">
+
+	<TABLE>
+             <tr>
+                <td> <label class="col-sm-2 col-form-label" for="sessionName">Name :</label></td>
+               <td class="col-sm-10" id="sessionName"></td>
+               </tr>
+              
+
+             <tr>
+                   <td ><label class="col-sm-2 col-form-label" for="sessionEid">email: </label></td>
+                <td class="col-sm-10" id="sessionEid"></td>
+             </tr>
+
+             	<tr>
+                <td><label class="col-sm-2 col-form-label" for="sessionPass">Password :</label></td>
+                <td class="col-sm-10" id="sessionPass"></td>
+                </tr>
+            
+                      
+            <tr>
+                <td><label class="col-sm-2 col-form-label" for="sessionGender">Gender :</label></dr>
+                <td class="col-sm-10" id="sessionGender"></td>
+          </tr>
+           
+            <tr>
+                <td><label class="col-sm-2 col-form-label" for="sessionAge">Age :</label></td>
+                <td class="col-sm-10" id="sessionAge"></td>
+          </tr>
+            
+      </TABLE>	  
+           
+</div>
+
+</body>
+</html>
+
+
+
